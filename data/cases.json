@@ -1,0 +1,29 @@
+{
+  "fetch-coastal-15ms-25km": {
+    "description": "沿岸风区：U=15 m/s，F=25 km",
+    "params": {
+      "wind_speed": 15.0,
+      "fetch": 25000.0,
+      "gamma": 3.3
+    },
+    "builtin": true
+  },
+  "fetch-sea-15ms-50km": {
+    "description": "有限风区海域：U=15 m/s，F=50 km",
+    "params": {
+      "wind_speed": 15.0,
+      "fetch": 50000.0,
+      "gamma": 3.3
+    },
+    "builtin": true
+  },
+  "fetch-storm-25ms-200km": {
+    "description": "大风风区：U=25 m/s，F=200 km",
+    "params": {
+      "wind_speed": 25.0,
+      "fetch": 200000.0,
+      "gamma": 3.3
+    },
+    "builtin": true
+  }
+}
